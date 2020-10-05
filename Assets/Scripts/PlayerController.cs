@@ -1,33 +1,57 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public float movmentSpeed;
+
     private Animator anim;
+    private List<Classmate> Group = new List<Classmate>();
+    private Rigidbody2D rigidbody2d;
 
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>(); 
+        anim = GetComponent<Animator>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
+
+        anim.speed = 2.5f;
+    }
+
+    public void Found(Classmate classmate)
+    {
+        if(!Group.Contains(classmate))
+        {
+            Group.Add(classmate);
+            Debug.Log($"Found: {classmate.DisplayName} id: {classmate.Id}");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
+        float speed;
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * movmentSpeed * Time.deltaTime, 0f, 0f));
+            speed = 2 * movmentSpeed;
+        }
+        else
+        {
+            speed = movmentSpeed;
         }
 
-        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-        {
-            transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * movmentSpeed * Time.deltaTime, 0f));
-        }
+        var horizontal = Input.GetAxis("Horizontal");
+        var vertical = Input.GetAxis("Vertical");
 
-        anim.SetFloat("DirectionX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("DirectionY", Input.GetAxisRaw("Vertical"));
+        var deltaX = horizontal * speed * Time.deltaTime;
+        var deltaY = vertical * speed * Time.deltaTime;
 
+        rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
+        
+        anim.SetFloat("DirectionX", horizontal*50);
+        anim.SetFloat("DirectionY", vertical*50);
     }
 }
