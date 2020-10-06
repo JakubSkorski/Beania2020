@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
     public float movmentSpeed;
 
     private Animator anim;
-    private List<Classmate> Group = new List<Classmate>();
     private Rigidbody2D rigidbody2d;
+
+    private List<ClassmateController> group = new List<ClassmateController>();
 
     // Start is called before the first frame update
     void Start()
@@ -18,15 +19,16 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
 
-        anim.speed = 2.5f;
+        anim.speed = 1.75f;
     }
 
-    public void Found(Classmate classmate)
+    // znaleziono ucznia
+    public void Found(ClassmateController classmate)
     {
-        if(!Group.Contains(classmate))
+        if(!group.Contains(classmate))
         {
-            Group.Add(classmate);
-            Debug.Log($"Found: {classmate.DisplayName} id: {classmate.Id}");
+            group.Add(classmate);
+            Debug.Log($"Found: {classmate.displayName}");
         }
     }
 
@@ -37,21 +39,26 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 2 * movmentSpeed;
+            anim.speed = 3.5f;
         }
         else
         {
             speed = movmentSpeed;
+            anim.speed = 1.75f;
         }
 
-        var horizontal = Input.GetAxis("Horizontal");
-        var vertical = Input.GetAxis("Vertical");
+        var x = Input.GetAxisRaw("Horizontal");
+        var y = Input.GetAxisRaw("Vertical");
+
+        var horizontal = (x > 0.5f) || (x < -0.5f) ? x : 0;
+        var vertical = (y > 0.5f) || (y < -0.5f) ? y : 0;
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;
 
         rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
         
-        anim.SetFloat("DirectionX", horizontal*50);
-        anim.SetFloat("DirectionY", vertical*50);
+        anim.SetFloat("DirectionX", horizontal);
+        anim.SetFloat("DirectionY", vertical);
     }
 }

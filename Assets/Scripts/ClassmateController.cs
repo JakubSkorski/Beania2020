@@ -13,17 +13,15 @@ namespace Assets.Scripts
         public string displayName;
         public int id;
 
-        private Classmate me;
         private Animator anim;
 
         // Start is called before the first frame update
         void Start()
         {
             anim = GetComponent<Animator>();
-            me = new Classmate() { DisplayName = displayName, Id = id };
 
             var x = gameObject.GetComponentInChildren<TextMesh>();
-            x.text = me.DisplayName;
+            x.text = displayName;
         }
 
         void OnTriggerEnter2D(Collider2D collision)
@@ -31,7 +29,7 @@ namespace Assets.Scripts
            var player = collision.gameObject.GetComponent<PlayerController>();
            if (player != null)
            {
-                player.Found(me);
+                player.Found(this);
            }
        }
 
