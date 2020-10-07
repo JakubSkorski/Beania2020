@@ -6,11 +6,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movmentSpeed;
+    public float movementSpeed;
+    public float animationSpeed;
 
     private Animator anim;
     private Rigidbody2D rigidbody2d;
 
+    // lista uczniów dodanych do drużyny
     private List<ClassmateController> group = new List<ClassmateController>();
 
     // Start is called before the first frame update
@@ -18,16 +20,17 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
-
-        anim.speed = 1.75f;
     }
 
-    // znaleziono ucznia
     public void Found(ClassmateController classmate)
     {
-        if(!group.Contains(classmate))
+        if(!group.Contains(classmate)) // sprawdza czy dany uczeń znajduje się już w drużynie
         {
-            group.Add(classmate);
+            group.Add(classmate); // dodaje ucznia do drużyny
+
+            // Proszę wpisać tu co ma się stać do po dodaniu ucznia do drużyny
+
+            
             Debug.Log($"Found: {classmate.displayName}");
         }
     }
@@ -36,15 +39,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float speed;
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 2 * movmentSpeed;
-            anim.speed = 3.5f;
+            speed = 2 * movementSpeed;
+            anim.speed = 2 * animationSpeed; //= 3.5f;
         }
         else
         {
-            speed = movmentSpeed;
-            anim.speed = 1.75f;
+            speed = movementSpeed;
+            anim.speed = animationSpeed;
         }
 
         var x = Input.GetAxisRaw("Horizontal");
@@ -58,6 +62,7 @@ public class PlayerController : MonoBehaviour
 
         rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
         
+        // ustawia kierunek chodzenia w animacji:
         anim.SetFloat("DirectionX", horizontal);
         anim.SetFloat("DirectionY", vertical);
     }
