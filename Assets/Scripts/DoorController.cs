@@ -8,25 +8,16 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
+<<<<<<< HEAD
     // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.   //// edit O czy D bo z kodu wynika ze O
     public class DoorController : MonoBehaviour
+=======
+    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.
+    public class DoorController
+>>>>>>> parent of d474c87... Merge branch 'master' of https://github.com/JakubSkorski/Beania2020
     {
-        public Vector2 deltaPositionOpened;
-        public float deltaRotationOpened;
-
-        private Vector2 positionClosed;
-        private float rotationClosed;
-
         private bool isPlayerNextToTheDoor = false;
         private bool isDoorOpened = false;
-        private Rigidbody2D door;
-
-        void Start()
-        {
-            door = GetComponent<Rigidbody2D>();
-            positionClosed = door.position;
-            rotationClosed = 0;
-        }
 
         void OnTriggerEnter2D(Collider2D collision)
         {
@@ -38,18 +29,16 @@ namespace Assets.Scripts
             if(isDoorOpened)
             {
                 isDoorOpened = false;
-                door.MoveRotation(rotationClosed);
-                door.MovePosition(positionClosed);
+                // close doors
             }
         }
 
         void Update()
         {
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O))
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.D))
             {
                 isDoorOpened = true;
-                door.MovePosition(positionClosed + deltaPositionOpened);
-                door.MoveRotation(rotationClosed + deltaRotationOpened);
+                // open doors
             }
         }
     }
