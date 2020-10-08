@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
-    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.
+    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.   //// edit O czy D bo z kodu wynika ze O
     public class DoorController : MonoBehaviour
     {
         public Vector2 deltaPositionOpened;
