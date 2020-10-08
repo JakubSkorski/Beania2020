@@ -25,7 +25,7 @@ namespace Assets.Scripts
         {
             door = GetComponent<Rigidbody2D>();
             positionClosed = door.position;
-            rotationClosed = door.rotation;
+            rotationClosed = 0;
         }
 
         void OnTriggerEnter2D(Collider2D collision)
@@ -38,14 +38,14 @@ namespace Assets.Scripts
             if(isDoorOpened)
             {
                 isDoorOpened = false;
-                door.MovePosition(positionClosed);
                 door.MoveRotation(rotationClosed);
+                door.MovePosition(positionClosed);
             }
         }
 
         void Update()
         {
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.D))
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O))
             {
                 isDoorOpened = true;
                 door.MovePosition(positionClosed + deltaPositionOpened);
