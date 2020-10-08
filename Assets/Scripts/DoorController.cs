@@ -9,10 +9,24 @@ namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
     // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.
-    public class DoorController
+    public class DoorController : MonoBehaviour
     {
+        public Vector2 deltaPositionOpened;
+        public float deltaRotationOpened;
+
+        private Vector2 positionClosed;
+        private float rotationClosed;
+
         private bool isPlayerNextToTheDoor = false;
         private bool isDoorOpened = false;
+        private Rigidbody2D door;
+
+        void Start()
+        {
+            door = GetComponent<Rigidbody2D>();
+            positionClosed = door.position;
+            rotationClosed = 0;
+        }
 
         void OnTriggerEnter2D(Collider2D collision)
         {
@@ -24,16 +38,18 @@ namespace Assets.Scripts
             if(isDoorOpened)
             {
                 isDoorOpened = false;
-                // close doors
+                door.MoveRotation(rotationClosed);
+                door.MovePosition(positionClosed);
             }
         }
 
         void Update()
         {
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.D))
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O))
             {
                 isDoorOpened = true;
-                // open doors
+                door.MovePosition(positionClosed + deltaPositionOpened);
+                door.MoveRotation(rotationClosed + deltaRotationOpened);
             }
         }
     }
