@@ -9,8 +9,13 @@ namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
 <<<<<<< HEAD
+<<<<<<< HEAD
     // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.   //// edit O czy D bo z kodu wynika ze O
     public class DoorController : MonoBehaviour
+=======
+    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.
+    public class DoorController
+>>>>>>> parent of d474c87... Merge branch 'master' of https://github.com/JakubSkorski/Beania2020
 =======
     // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz D.
     public class DoorController
