@@ -40,18 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Ground
     uniqueID: 46127159
-    locked: 0
-  - name: Player
-    uniqueID: 1407798011
     locked: 0
   - name: Floor0
     uniqueID: 1658965321
     locked: 0
   - name: Floor2
     uniqueID: 1767375997
+    locked: 0
+  - name: Player
+    uniqueID: 1407798011
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
