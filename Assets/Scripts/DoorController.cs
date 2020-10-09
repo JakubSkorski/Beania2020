@@ -38,18 +38,18 @@ namespace Assets.Scripts
             if(isDoorOpened)
             {
                 isDoorOpened = false;
-                door.MoveRotation(rotationClosed);
+                door.SetRotation(rotationClosed);
                 door.MovePosition(positionClosed);
             }
         }
 
         void Update()
         {
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O))
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O) && !isDoorOpened)
             {
                 isDoorOpened = true;
                 door.MovePosition(positionClosed + deltaPositionOpened);
-                door.MoveRotation(rotationClosed + deltaRotationOpened);
+                door.SetRotation(rotationClosed + deltaRotationOpened);
             }
         }
     }
