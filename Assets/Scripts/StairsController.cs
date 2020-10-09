@@ -9,7 +9,7 @@ namespace Assets.Scripts
 {
     // SCHODY
     // gdy gracz wejdzie na schody zmieniany jest model szkoły z parteru na 2 pietro.
-    public class StairsController : MonoBehaviour
+    public class StairsController
     {
         private int floorNumber = 0;
         void OnTriggerEnter2D(Collider2D collision)
