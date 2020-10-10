@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - text
+  - floor0-object
+  - floor2-object
   layers:
   - Default
   - TransparentFX
