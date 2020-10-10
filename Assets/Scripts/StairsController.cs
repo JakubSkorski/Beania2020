@@ -8,15 +8,23 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     // SCHODY
-    // gdy gracz wejdzie na schody zmieniany jest model szkoły z parteru na 2 pietro.
-    public class StairsController
+    // gdy gracz wejdzie na schody zmieniany jest model szkoły.
+    public class StairsController : MonoBehaviour
     {
-        private int floorNumber = 0;
+        private GameObject floor0;
+        private GameObject floor2;
+
+        void Start()
+        {
+            floor0 = GameObject.FindGameObjectWithTag("floor0-object");
+            floor2 = GameObject.FindGameObjectWithTag("floor2-object");
+            floor2.SetActive(false);
+        }
+
         void OnTriggerEnter2D(Collider2D collision)
         {
-            floorNumber = (floorNumber == 1) ? 0 : 1;
-
-            // change floor object
+            floor0.SetActive(!floor0.activeSelf);
+            floor2.SetActive(!floor2.activeSelf);
         }
     }
 }

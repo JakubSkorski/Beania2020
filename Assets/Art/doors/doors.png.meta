@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: e5e7db1cb3119c04daedd199034d2d14
+guid: 653c07b3dc7dadf4a9cb34500e06b9b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5315073545871111437
-    second: floor2_0
+      213: -3813957895643319183
+    second: doors_0
   - first:
-      213: -6418100454717397483
-    second: floor2_1
+      213: -8142096278820783464
+    second: doors_0
+  - first:
+      213: -5869873724788712370
+    second: doors_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -95,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floor2_0
+      name: doors_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 0
+        width: 8
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,8 +112,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0539b0ca3fe2c940800000000000000
-      internalID: 5315073545871111437
+      spriteID: 89a7bd5b296710f80800000000000000
+      internalID: -8142096278820783464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 3
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cd19d72f40a8ea0800000000000000
+      internalID: -5869873724788712370
       vertices: []
       indices: 
       edges: []
