@@ -28,6 +28,17 @@ namespace Assets.Scripts
     {
         private bool isPlayerNextToTheDoor = false;
         private bool isDoorOpened = false;
+<<<<<<< HEAD
+=======
+        private Rigidbody2D door;
+
+        void Start()
+        {
+            door = GetComponent<Rigidbody2D>();
+            positionClosed = door.position;
+            rotationClosed = door.rotation;
+        }
+>>>>>>> parent of faaca3b... Create a new door opening and closing animation. Use new wall models.
 
         void OnTriggerEnter2D(Collider2D collision)
         {
@@ -39,7 +50,12 @@ namespace Assets.Scripts
             if(isDoorOpened)
             {
                 isDoorOpened = false;
+<<<<<<< HEAD
                 // close doors
+=======
+                door.MovePosition(positionClosed);
+                door.MoveRotation(rotationClosed);
+>>>>>>> parent of faaca3b... Create a new door opening and closing animation. Use new wall models.
             }
         }
 
