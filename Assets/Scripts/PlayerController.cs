@@ -6,27 +6,32 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movmentSpeed;
+    public float movementSpeed;
+    public float animationSpeed;
 
     private Animator anim;
-    private List<Classmate> Group = new List<Classmate>();
     private Rigidbody2D rigidbody2d;
+
+    // lista uczniów dodanych do drużyny
+    private List<ClassmateController> group = new List<ClassmateController>();
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
-
-        anim.speed = 2.5f;
     }
 
-    public void Found(Classmate classmate)
+    public void Found(ClassmateController classmate)
     {
-        if(!Group.Contains(classmate))
+        if(!group.Contains(classmate)) // sprawdza czy dany uczeń znajduje się już w drużynie
         {
-            Group.Add(classmate);
-            Debug.Log($"Found: {classmate.DisplayName} id: {classmate.Id}");
+            group.Add(classmate); // dodaje ucznia do drużyny
+
+            // Proszę wpisać tu co ma się stać do po dodaniu ucznia do drużyny
+
+            
+            Debug.Log($"Found: {classmate.displayName}");
         }
     }
 
@@ -34,24 +39,31 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float speed;
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 2 * movmentSpeed;
+            speed = 2 * movementSpeed;
+            anim.speed = 2 * animationSpeed; //= 3.5f;
         }
         else
         {
-            speed = movmentSpeed;
+            speed = movementSpeed;
+            anim.speed = animationSpeed;
         }
 
-        var horizontal = Input.GetAxis("Horizontal");
-        var vertical = Input.GetAxis("Vertical");
+        var x = Input.GetAxisRaw("Horizontal");
+        var y = Input.GetAxisRaw("Vertical");
+
+        var horizontal = (x > 0.5f) || (x < -0.5f) ? x : 0;
+        var vertical = (y > 0.5f) || (y < -0.5f) ? y : 0;
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;
 
         rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
         
-        anim.SetFloat("DirectionX", horizontal*50);
-        anim.SetFloat("DirectionY", vertical*50);
+        // ustawia kierunek chodzenia w animacji:
+        anim.SetFloat("DirectionX", horizontal);
+        anim.SetFloat("DirectionY", vertical);
     }
 }
