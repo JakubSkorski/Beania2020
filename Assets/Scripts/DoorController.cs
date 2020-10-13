@@ -41,6 +41,7 @@ namespace Assets.Scripts
             if(isDoorOpened && collision.gameObject.CompareTag("Player"))
             {
                 isDoorOpened = false;
+                isPlayerNextToTheDoor = false;
                 door.SetRotation(rotationClosed);
                 door.MovePosition(positionClosed);
             }
