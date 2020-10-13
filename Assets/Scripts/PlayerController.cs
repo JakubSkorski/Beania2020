@@ -6,13 +6,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movementSpeed = 1f;
+    public float movementSpeed;
+    public float animationSpeed;
 
     private Animator anim;
     private Rigidbody2D rigidbody2d;
-
-    private bool playerMoving;
-    private Vector2 lastMove;
 
     // lista uczniów dodanych do drużyny
     private List<ClassmateController> group = new List<ClassmateController>();
@@ -40,50 +38,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerMoving = false;
         float speed;
-        float horizontal, vertical;
-
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 2 * movementSpeed;
-            anim.speed = speed; //= 3.5f;
+            anim.speed = 2 * animationSpeed; //= 3.5f;
         }
         else
         {
             speed = movementSpeed;
-            anim.speed = speed;
+            anim.speed = animationSpeed;
         }
+
+        var x = Input.GetAxisRaw("Horizontal");
+        var y = Input.GetAxisRaw("Vertical");
+
+        var horizontal = (x > 0.5f) || (x < -0.5f) ? x : 0;
+        var vertical = (y > 0.5f) || (y < -0.5f) ? y : 0;
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;
-
-       if (horizontal > 0.5f || horizontal < -0.5f)
-       {
-            transform.Translate(deltaX, 0f, 0f);
-            playerMoving = true;
-            lastMove = new Vector2(horizontal, 0f);
-       }
-
-       if (vertical > 0.5f || vertical < -0.5f)
-       {
-           transform.Translate(0f, deltaY, 0f);
-           playerMoving = true;
-           lastMove = new Vector2(0f, vertical);
-       }
-
-       
 
         rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
         
         // ustawia kierunek chodzenia w animacji:
         anim.SetFloat("DirectionX", horizontal);
         anim.SetFloat("DirectionY", vertical);
-        anim.SetFloat("LastX", lastMove.x);
-        anim.SetFloat("LastY", lastMove.y);
-        anim.SetBool("Moving", playerMoving);
     }
 }
