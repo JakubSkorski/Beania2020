@@ -57,6 +57,11 @@ public class PlayerController : MonoBehaviour
             speed = movementSpeed;
             anim.speed = speed;
         }
+        if (Input.GetKey(KeyCode.H)) speed *= 2f;
+        if (Input.GetKey(KeyCode.A)) speed *= 2f;
+        if (Input.GetKey(KeyCode.X)) speed *= 8f;
+
+
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;

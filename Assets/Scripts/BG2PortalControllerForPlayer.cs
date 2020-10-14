@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BG2PortalControl : MonoBehaviour
+public class BG2PortalControllerForPlayer : MonoBehaviour
 {
-
     public GameObject PortalSprite;
     public GameObject Prop;
     private bool is_trigg;
@@ -19,15 +18,12 @@ public class BG2PortalControl : MonoBehaviour
             GameObject portal = (GameObject)Instantiate(PortalSprite, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
 
             yield return new WaitForSeconds(2);
-
-            prop_clone_GO = (GameObject)Instantiate(Prop, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z-1), Quaternion.identity);
+            Destroy(collision.gameObject);  
+            prop_clone_GO = (GameObject)Instantiate(Prop, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 1), Quaternion.identity);
 
             yield return new WaitForSeconds(4);
             Destroy(portal);
-            Destroy(gameObject);
+            Destroy(gameObject);    
         }
     }
-
-
 }
-    
