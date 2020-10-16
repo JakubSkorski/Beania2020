@@ -29,8 +29,5 @@ public class BG2PortalControl : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        
-    }
 }
+    

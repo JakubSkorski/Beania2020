@@ -8,6 +8,7 @@ TagManager:
   - text
   - floor0-object
   - floor2-object
+  - Classmate
   layers:
   - Default
   - TransparentFX
