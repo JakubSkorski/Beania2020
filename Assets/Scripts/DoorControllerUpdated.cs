@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -13,8 +14,11 @@ namespace Assets.Scripts
     {
         public float openedDoorAngle;
         public float rotationSpeed;
+        public float acceleration;
+        public float baseSpeed = 0.6f;
 
         private float rotated;
+        private float currentSpeed;
 
         private bool isPlayerNextToTheDoor = false;
         private bool isDoorOpened = false;
@@ -24,6 +28,7 @@ namespace Assets.Scripts
         void Start()
         {
             //door = GetComponent<Rigidbody2D>();
+            currentSpeed = baseSpeed;
         }
 
         void OnTriggerEnter2D(Collider2D collision)
@@ -43,7 +48,9 @@ namespace Assets.Scripts
                 {
                     isDoorOpened = false;
                     isDoorOpening = false;
-                    transform.Rotate(new Vector3(0, 0, -openedDoorAngle));
+                    rotated = 0;
+                    currentSpeed = baseSpeed;
+                    transform.localRotation = Quaternion.Euler(0, 0, 0);
                     //door.SetRotation(rotationClosed);
                     //door.MovePosition(positionClosed);
                 }
@@ -54,14 +61,14 @@ namespace Assets.Scripts
         {
             if(isDoorOpening)
             {
-                var angle = rotationSpeed * Time.deltaTime;
-                rotated += angle;
-                if(rotated >= openedDoorAngle)
+                currentSpeed *= acceleration;
+                var check = CheckAngle(currentSpeed * Time.deltaTime,rotated, openedDoorAngle, out var angle);
+                if(check)
                 {
-                    //angle = rotationOpened;
                     isDoorOpening = false;
                     isDoorOpened = true;
                 }
+                rotated += angle;
                 transform.Rotate(new Vector3(0, 0, angle));
                 return;
             }
@@ -70,6 +77,18 @@ namespace Assets.Scripts
             {
                 isDoorOpening = true;
             }
+        }
+
+        private bool CheckAngle(float delta, float rotationA, float maxAngle, out float output)
+        {
+            var rotation = rotationA + delta;
+            if((maxAngle < 0 && rotation < maxAngle) || (maxAngle > 0 && rotation > maxAngle))
+            {
+                output = maxAngle - rotationA;
+                return true;
+            }
+            output = delta;
+            return false;
         }
     }
 }
