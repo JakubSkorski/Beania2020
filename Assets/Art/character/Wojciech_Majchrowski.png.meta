@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: caed54e2bf317cf44939a8e5a005738c
+guid: 2d8c1f7c12e46ef44a19b974c6197822
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829294782567990066
-    second: radek-v2_0-1
+      213: -6401838910372354946
+    second: Wojciech_Majchrowski_0
   - first:
-      213: 5488112622357462391
-    second: radek-v2_1
+      213: 7440619915713597678
+    second: Wojciech_Majchrowski_1
   - first:
-      213: -4235205979055056928
-    second: radek-v2_2
+      213: 9050993613225756320
+    second: Wojciech_Majchrowski_2
   - first:
-      213: 1239090489816659808
-    second: radek-v2_3
+      213: 1165054358933208014
+    second: Wojciech_Majchrowski_3
   - first:
-      213: 8325272478194110832
-    second: radek-v2_4
+      213: -3833349655367759094
+    second: Wojciech_Majchrowski_4
   - first:
-      213: -594504229464380776
-    second: radek-v2_5
+      213: -3441978486437691798
+    second: Wojciech_Majchrowski_5
   - first:
-      213: -916740069732162260
-    second: radek-v2_6
+      213: -3339001818562105776
+    second: Wojciech_Majchrowski_6
   - first:
-      213: 649747290126647489
-    second: radek-v2_7
+      213: 7430368501014393795
+    second: Wojciech_Majchrowski_7
   - first:
-      213: 5026891824067581892
-    second: radek-v2_8
+      213: -531425160347751047
+    second: Wojciech_Majchrowski_8
   - first:
-      213: -2180339998058725836
-    second: radek-v2_9
+      213: -5475123602190226418
+    second: Wojciech_Majchrowski_9
   - first:
-      213: -4971142701078906413
-    second: radek-v2_10
+      213: 3924754031271826490
+    second: Wojciech_Majchrowski_10
   - first:
-      213: -7547648176881845833
-    second: radek-v2_11
+      213: 2740796888506115120
+    second: Wojciech_Majchrowski_11
   - first:
-      213: 2542049485795541624
-    second: radek-v2_12
+      213: -6328570454763477204
+    second: Wojciech_Majchrowski_12
   - first:
-      213: -118336397928450965
-    second: radek-v2_13
+      213: -2853340235195911789
+    second: Wojciech_Majchrowski_13
   - first:
-      213: -305420182292264696
-    second: radek-v2_14
+      213: 4400695237095765873
+    second: Wojciech_Majchrowski_14
   - first:
-      213: 1132163623157245801
-    second: radek-v2_15
+      213: -3677569457333877867
+    second: Wojciech_Majchrowski_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radek-v2_0-1
+      name: Wojciech_Majchrowski_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233cc01063f328b00800000000000000
-      internalID: 829294782567990066
+      spriteID: e746bfded691827a0800000000000000
+      internalID: -6401838910372354946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_1
+      name: Wojciech_Majchrowski_1
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d34fe4a51b92c40800000000000000
-      internalID: 5488112622357462391
+      spriteID: ee05ec82464624760800000000000000
+      internalID: 7440619915713597678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_2
+      name: Wojciech_Majchrowski_2
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e710d3e9968935c0800000000000000
-      internalID: -4235205979055056928
+      spriteID: 0a686acacb69b9d70800000000000000
+      internalID: 9050993613225756320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_3
+      name: Wojciech_Majchrowski_3
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067361a4c32223110800000000000000
-      internalID: 1239090489816659808
+      spriteID: ecbfb3844ca1b2010800000000000000
+      internalID: 1165054358933208014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_4
+      name: Wojciech_Majchrowski_4
       rect:
         serializedVersion: 2
         x: 0
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0719811b53f498370800000000000000
-      internalID: 8325272478194110832
+      spriteID: a0b40f36cc43dcac0800000000000000
+      internalID: -3833349655367759094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_5
+      name: Wojciech_Majchrowski_5
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aee499d85efb7f0800000000000000
-      internalID: -594504229464380776
+      spriteID: a6e385f8dc2ab30d0800000000000000
+      internalID: -3441978486437691798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_6
+      name: Wojciech_Majchrowski_6
       rect:
         serializedVersion: 2
         x: 32
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c256f3083c51743f0800000000000000
-      internalID: -916740069732162260
+      spriteID: 05ee83c698b79a1d0800000000000000
+      internalID: -3339001818562105776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_7
+      name: Wojciech_Majchrowski_7
       rect:
         serializedVersion: 2
         x: 48
@@ -298,19 +298,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c085c5c7bd540900800000000000000
-      internalID: 649747290126647489
+      spriteID: 3c3f63da8c8fd1760800000000000000
+      internalID: 7430368501014393795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_8
+      name: Wojciech_Majchrowski_8
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,40 +319,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c71dd9fa7b13c540800000000000000
-      internalID: 5026891824067581892
+      spriteID: 97d64ccd1afff98f0800000000000000
+      internalID: -531425160347751047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_9
+      name: Wojciech_Majchrowski_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43e322ed250edb1e0800000000000000
-      internalID: -2180339998058725836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_10
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 16
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97a663d04f20bb0800000000000000
-      internalID: -4971142701078906413
+      spriteID: e0c281e97147404b0800000000000000
+      internalID: -5475123602190226418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_11
+      name: Wojciech_Majchrowski_10
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 16
-        width: 11
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,92 +361,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b93557e8fd514790800000000000000
-      internalID: -7547648176881845833
+      spriteID: a345db84ff6877630800000000000000
+      internalID: 3924754031271826490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_12
+      name: Wojciech_Majchrowski_11
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 872ce4af98c274320800000000000000
-      internalID: 2542049485795541624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64b97d4ca59b5ef0800000000000000
-      internalID: -118336397928450965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8090c3f56fde2cbf0800000000000000
-      internalID: -305420182292264696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_15
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 11
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96728e911d046bf00800000000000000
-      internalID: 1132163623157245801
+      spriteID: 03427ecaf34490620800000000000000
+      internalID: 2740796888506115120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wojciech_Majchrowski_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c276acb93b66c28a0800000000000000
+      internalID: -6328570454763477204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wojciech_Majchrowski_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39171d97c26e668d0800000000000000
+      internalID: -2853340235195911789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wojciech_Majchrowski_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177b8d39009621d30800000000000000
+      internalID: 4400695237095765873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wojciech_Majchrowski_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593c9ca2016a6fcc0800000000000000
+      internalID: -3677569457333877867
       vertices: []
       indices: 
       edges: []

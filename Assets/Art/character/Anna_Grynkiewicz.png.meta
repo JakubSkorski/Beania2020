@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: caed54e2bf317cf44939a8e5a005738c
+guid: 344c6bd244e7234499eb2b843a0a69c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829294782567990066
-    second: radek-v2_0-1
+      213: -3164941167633975803
+    second: Anna_Grynkiewicz_0
   - first:
-      213: 5488112622357462391
-    second: radek-v2_1
+      213: 7705482970143485227
+    second: Anna_Grynkiewicz_1
   - first:
-      213: -4235205979055056928
-    second: radek-v2_2
+      213: 4706497959809823736
+    second: Anna_Grynkiewicz_2
   - first:
-      213: 1239090489816659808
-    second: radek-v2_3
+      213: 6632428840533061302
+    second: Anna_Grynkiewicz_3
   - first:
-      213: 8325272478194110832
-    second: radek-v2_4
+      213: 4886486616786324863
+    second: Anna_Grynkiewicz_4
   - first:
-      213: -594504229464380776
-    second: radek-v2_5
+      213: 4599235060652813608
+    second: Anna_Grynkiewicz_5
   - first:
-      213: -916740069732162260
-    second: radek-v2_6
+      213: -8244831539300682876
+    second: Anna_Grynkiewicz_6
   - first:
-      213: 649747290126647489
-    second: radek-v2_7
+      213: -4481193892710893222
+    second: Anna_Grynkiewicz_7
   - first:
-      213: 5026891824067581892
-    second: radek-v2_8
+      213: 7852145271177514423
+    second: Anna_Grynkiewicz_8
   - first:
-      213: -2180339998058725836
-    second: radek-v2_9
+      213: -2603058829063739287
+    second: Anna_Grynkiewicz_9
   - first:
-      213: -4971142701078906413
-    second: radek-v2_10
+      213: 8401709577313110910
+    second: Anna_Grynkiewicz_10
   - first:
-      213: -7547648176881845833
-    second: radek-v2_11
+      213: 9063297555548889223
+    second: Anna_Grynkiewicz_11
   - first:
-      213: 2542049485795541624
-    second: radek-v2_12
+      213: -610712209481561696
+    second: Anna_Grynkiewicz_12
   - first:
-      213: -118336397928450965
-    second: radek-v2_13
+      213: 63037437912755754
+    second: Anna_Grynkiewicz_13
   - first:
-      213: -305420182292264696
-    second: radek-v2_14
+      213: -8765205844976426709
+    second: Anna_Grynkiewicz_14
   - first:
-      213: 1132163623157245801
-    second: radek-v2_15
+      213: 1869212801858918555
+    second: Anna_Grynkiewicz_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radek-v2_0-1
+      name: Anna_Grynkiewicz_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233cc01063f328b00800000000000000
-      internalID: 829294782567990066
+      spriteID: 506ba20d6ced314d0800000000000000
+      internalID: -3164941167633975803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_1
+      name: Anna_Grynkiewicz_1
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d34fe4a51b92c40800000000000000
-      internalID: 5488112622357462391
+      spriteID: b2d693a9fef5fea60800000000000000
+      internalID: 7705482970143485227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_2
+      name: Anna_Grynkiewicz_2
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e710d3e9968935c0800000000000000
-      internalID: -4235205979055056928
+      spriteID: 8f3b09655f6d05140800000000000000
+      internalID: 4706497959809823736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_3
+      name: Anna_Grynkiewicz_3
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067361a4c32223110800000000000000
-      internalID: 1239090489816659808
+      spriteID: 6be670ee3ee1b0c50800000000000000
+      internalID: 6632428840533061302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_4
+      name: Anna_Grynkiewicz_4
       rect:
         serializedVersion: 2
         x: 0
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0719811b53f498370800000000000000
-      internalID: 8325272478194110832
+      spriteID: f7dcf3130b940d340800000000000000
+      internalID: 4886486616786324863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_5
+      name: Anna_Grynkiewicz_5
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aee499d85efb7f0800000000000000
-      internalID: -594504229464380776
+      spriteID: 82dabbc7be3c3df30800000000000000
+      internalID: 4599235060652813608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_6
+      name: Anna_Grynkiewicz_6
       rect:
         serializedVersion: 2
         x: 32
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c256f3083c51743f0800000000000000
-      internalID: -916740069732162260
+      spriteID: 483bb03e569749d80800000000000000
+      internalID: -8244831539300682876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_7
+      name: Anna_Grynkiewicz_7
       rect:
         serializedVersion: 2
         x: 48
@@ -298,19 +298,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c085c5c7bd540900800000000000000
-      internalID: 649747290126647489
+      spriteID: a59315f95e99fc1c0800000000000000
+      internalID: -4481193892710893222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_8
+      name: Anna_Grynkiewicz_8
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,40 +319,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c71dd9fa7b13c540800000000000000
-      internalID: 5026891824067581892
+      spriteID: 7bd8c4d858c68fc60800000000000000
+      internalID: 7852145271177514423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_9
+      name: Anna_Grynkiewicz_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43e322ed250edb1e0800000000000000
-      internalID: -2180339998058725836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_10
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 16
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97a663d04f20bb0800000000000000
-      internalID: -4971142701078906413
+      spriteID: 968263c59c310ebd0800000000000000
+      internalID: -2603058829063739287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_11
+      name: Anna_Grynkiewicz_10
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 16
-        width: 11
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,92 +361,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b93557e8fd514790800000000000000
-      internalID: -7547648176881845833
+      spriteID: e7bcebda85ed89470800000000000000
+      internalID: 8401709577313110910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_12
+      name: Anna_Grynkiewicz_11
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 872ce4af98c274320800000000000000
-      internalID: 2542049485795541624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64b97d4ca59b5ef0800000000000000
-      internalID: -118336397928450965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8090c3f56fde2cbf0800000000000000
-      internalID: -305420182292264696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_15
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 11
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96728e911d046bf00800000000000000
-      internalID: 1132163623157245801
+      spriteID: 780682c7b1d47cd70800000000000000
+      internalID: 9063297555548889223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anna_Grynkiewicz_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a98bdd2b705687f0800000000000000
+      internalID: -610712209481561696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anna_Grynkiewicz_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e275e3734ffd000800000000000000
+      internalID: 63037437912755754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anna_Grynkiewicz_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21a00b59bbbb5680800000000000000
+      internalID: -8765205844976426709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anna_Grynkiewicz_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98d968c327c0f910800000000000000
+      internalID: 1869212801858918555
       vertices: []
       indices: 
       edges: []

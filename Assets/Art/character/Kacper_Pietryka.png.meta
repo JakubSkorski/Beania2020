@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: caed54e2bf317cf44939a8e5a005738c
+guid: 1e901cb74df7af748a674f40ee2bd4e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829294782567990066
-    second: radek-v2_0-1
+      213: 2492151912684920310
+    second: Kacper_Pietryka_0
   - first:
-      213: 5488112622357462391
-    second: radek-v2_1
+      213: 316720918671022840
+    second: Kacper_Pietryka_1
   - first:
-      213: -4235205979055056928
-    second: radek-v2_2
+      213: 8529105121821945003
+    second: Kacper_Pietryka_2
   - first:
-      213: 1239090489816659808
-    second: radek-v2_3
+      213: -4035946434432132572
+    second: Kacper_Pietryka_3
   - first:
-      213: 8325272478194110832
-    second: radek-v2_4
+      213: 1099146668137679853
+    second: Kacper_Pietryka_4
   - first:
-      213: -594504229464380776
-    second: radek-v2_5
+      213: 5962121324451358819
+    second: Kacper_Pietryka_5
   - first:
-      213: -916740069732162260
-    second: radek-v2_6
+      213: -5755942504679623236
+    second: Kacper_Pietryka_6
   - first:
-      213: 649747290126647489
-    second: radek-v2_7
+      213: -8747079816309201644
+    second: Kacper_Pietryka_7
   - first:
-      213: 5026891824067581892
-    second: radek-v2_8
+      213: 3559784684911595229
+    second: Kacper_Pietryka_8
   - first:
-      213: -2180339998058725836
-    second: radek-v2_9
+      213: 7463471302748083696
+    second: Kacper_Pietryka_9
   - first:
-      213: -4971142701078906413
-    second: radek-v2_10
+      213: -4501905167454798286
+    second: Kacper_Pietryka_10
   - first:
-      213: -7547648176881845833
-    second: radek-v2_11
+      213: 3031565921610358820
+    second: Kacper_Pietryka_11
   - first:
-      213: 2542049485795541624
-    second: radek-v2_12
+      213: -6955818446439268617
+    second: Kacper_Pietryka_12
   - first:
-      213: -118336397928450965
-    second: radek-v2_13
+      213: -6337836017509766881
+    second: Kacper_Pietryka_13
   - first:
-      213: -305420182292264696
-    second: radek-v2_14
+      213: -8809882514181412967
+    second: Kacper_Pietryka_14
   - first:
-      213: 1132163623157245801
-    second: radek-v2_15
+      213: -385652380568376263
+    second: Kacper_Pietryka_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radek-v2_0-1
+      name: Kacper_Pietryka_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233cc01063f328b00800000000000000
-      internalID: 829294782567990066
+      spriteID: 6fd15e9e5f6e59220800000000000000
+      internalID: 2492151912684920310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_1
+      name: Kacper_Pietryka_1
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d34fe4a51b92c40800000000000000
-      internalID: 5488112622357462391
+      spriteID: 8fa525a5ff7356400800000000000000
+      internalID: 316720918671022840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_2
+      name: Kacper_Pietryka_2
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e710d3e9968935c0800000000000000
-      internalID: -4235205979055056928
+      spriteID: bac692e4be77d5670800000000000000
+      internalID: 8529105121821945003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_3
+      name: Kacper_Pietryka_3
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067361a4c32223110800000000000000
-      internalID: 1239090489816659808
+      spriteID: 42a1b2be9107df7c0800000000000000
+      internalID: -4035946434432132572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_4
+      name: Kacper_Pietryka_4
       rect:
         serializedVersion: 2
         x: 0
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0719811b53f498370800000000000000
-      internalID: 8325272478194110832
+      spriteID: deb86663214f04f00800000000000000
+      internalID: 1099146668137679853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_5
+      name: Kacper_Pietryka_5
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aee499d85efb7f0800000000000000
-      internalID: -594504229464380776
+      spriteID: 36864b381c5bdb250800000000000000
+      internalID: 5962121324451358819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_6
+      name: Kacper_Pietryka_6
       rect:
         serializedVersion: 2
         x: 32
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c256f3083c51743f0800000000000000
-      internalID: -916740069732162260
+      spriteID: cb5bffcc9c8ce10b0800000000000000
+      internalID: -5755942504679623236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_7
+      name: Kacper_Pietryka_7
       rect:
         serializedVersion: 2
         x: 48
@@ -298,19 +298,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c085c5c7bd540900800000000000000
-      internalID: 649747290126647489
+      spriteID: 415a6e640412c9680800000000000000
+      internalID: -8747079816309201644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_8
+      name: Kacper_Pietryka_8
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,40 +319,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c71dd9fa7b13c540800000000000000
-      internalID: 5026891824067581892
+      spriteID: dde08057f45e66130800000000000000
+      internalID: 3559784684911595229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_9
+      name: Kacper_Pietryka_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43e322ed250edb1e0800000000000000
-      internalID: -2180339998058725836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_10
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 16
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97a663d04f20bb0800000000000000
-      internalID: -4971142701078906413
+      spriteID: 0f51f9f4b93939760800000000000000
+      internalID: 7463471302748083696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_11
+      name: Kacper_Pietryka_10
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 16
-        width: 11
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,92 +361,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b93557e8fd514790800000000000000
-      internalID: -7547648176881845833
+      spriteID: 23e7c513a150681c0800000000000000
+      internalID: -4501905167454798286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_12
+      name: Kacper_Pietryka_11
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 872ce4af98c274320800000000000000
-      internalID: 2542049485795541624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64b97d4ca59b5ef0800000000000000
-      internalID: -118336397928450965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8090c3f56fde2cbf0800000000000000
-      internalID: -305420182292264696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_15
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 11
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96728e911d046bf00800000000000000
-      internalID: 1132163623157245801
+      spriteID: 420e3cec429421a20800000000000000
+      internalID: 3031565921610358820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kacper_Pietryka_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feb0e9f9f7f77f90800000000000000
+      internalID: -6955818446439268617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kacper_Pietryka_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1967aba8bb7b08a0800000000000000
+      internalID: -6337836017509766881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kacper_Pietryka_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997aa45b7820db580800000000000000
+      internalID: -8809882514181412967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kacper_Pietryka_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c20710433e5aaf0800000000000000
+      internalID: -385652380568376263
       vertices: []
       indices: 
       edges: []

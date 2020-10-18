@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: caed54e2bf317cf44939a8e5a005738c
+guid: a0179ced96ce2d143acfaac19498be4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829294782567990066
-    second: radek-v2_0-1
+      213: -5466847724588928240
+    second: "Miko\u0142aj_Ko\u0142odziej_0"
   - first:
-      213: 5488112622357462391
-    second: radek-v2_1
+      213: 3295443095177515653
+    second: "Miko\u0142aj_Ko\u0142odziej_1"
   - first:
-      213: -4235205979055056928
-    second: radek-v2_2
+      213: -2885044460786626775
+    second: "Miko\u0142aj_Ko\u0142odziej_2"
   - first:
-      213: 1239090489816659808
-    second: radek-v2_3
+      213: -1350103045756488803
+    second: "Miko\u0142aj_Ko\u0142odziej_3"
   - first:
-      213: 8325272478194110832
-    second: radek-v2_4
+      213: 8495856222306180509
+    second: "Miko\u0142aj_Ko\u0142odziej_4"
   - first:
-      213: -594504229464380776
-    second: radek-v2_5
+      213: -7730894997599466293
+    second: "Miko\u0142aj_Ko\u0142odziej_5"
   - first:
-      213: -916740069732162260
-    second: radek-v2_6
+      213: -2914876567033510146
+    second: "Miko\u0142aj_Ko\u0142odziej_6"
   - first:
-      213: 649747290126647489
-    second: radek-v2_7
+      213: -9085061887422682153
+    second: "Miko\u0142aj_Ko\u0142odziej_7"
   - first:
-      213: 5026891824067581892
-    second: radek-v2_8
+      213: 2168226856947946393
+    second: "Miko\u0142aj_Ko\u0142odziej_8"
   - first:
-      213: -2180339998058725836
-    second: radek-v2_9
+      213: -5519236943589981044
+    second: "Miko\u0142aj_Ko\u0142odziej_9"
   - first:
-      213: -4971142701078906413
-    second: radek-v2_10
+      213: -3857820552268417953
+    second: "Miko\u0142aj_Ko\u0142odziej_10"
   - first:
-      213: -7547648176881845833
-    second: radek-v2_11
+      213: -4481052202812205331
+    second: "Miko\u0142aj_Ko\u0142odziej_11"
   - first:
-      213: 2542049485795541624
-    second: radek-v2_12
+      213: 8097566565924393550
+    second: "Miko\u0142aj_Ko\u0142odziej_12"
   - first:
-      213: -118336397928450965
-    second: radek-v2_13
+      213: -163524983283511737
+    second: "Miko\u0142aj_Ko\u0142odziej_13"
   - first:
-      213: -305420182292264696
-    second: radek-v2_14
+      213: -5790120673761477583
+    second: "Miko\u0142aj_Ko\u0142odziej_14"
   - first:
-      213: 1132163623157245801
-    second: radek-v2_15
+      213: 889542930550464274
+    second: "Miko\u0142aj_Ko\u0142odziej_15"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radek-v2_0-1
+      name: "Miko\u0142aj_Ko\u0142odziej_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233cc01063f328b00800000000000000
-      internalID: 829294782567990066
+      spriteID: 01379b685fad124b0800000000000000
+      internalID: -5466847724588928240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_1
+      name: "Miko\u0142aj_Ko\u0142odziej_1"
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d34fe4a51b92c40800000000000000
-      internalID: 5488112622357462391
+      spriteID: 582d199f804cbbd20800000000000000
+      internalID: 3295443095177515653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_2
+      name: "Miko\u0142aj_Ko\u0142odziej_2"
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e710d3e9968935c0800000000000000
-      internalID: -4235205979055056928
+      spriteID: 92fca99395346f7d0800000000000000
+      internalID: -2885044460786626775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_3
+      name: "Miko\u0142aj_Ko\u0142odziej_3"
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067361a4c32223110800000000000000
-      internalID: 1239090489816659808
+      spriteID: d93f28bde68734de0800000000000000
+      internalID: -1350103045756488803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_4
+      name: "Miko\u0142aj_Ko\u0142odziej_4"
       rect:
         serializedVersion: 2
         x: 0
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0719811b53f498370800000000000000
-      internalID: 8325272478194110832
+      spriteID: d9d1a51a83857e570800000000000000
+      internalID: 8495856222306180509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_5
+      name: "Miko\u0142aj_Ko\u0142odziej_5"
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aee499d85efb7f0800000000000000
-      internalID: -594504229464380776
+      spriteID: bcc4d30b5f756b490800000000000000
+      internalID: -7730894997599466293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_6
+      name: "Miko\u0142aj_Ko\u0142odziej_6"
       rect:
         serializedVersion: 2
         x: 32
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c256f3083c51743f0800000000000000
-      internalID: -916740069732162260
+      spriteID: ef68bd9b4374c87d0800000000000000
+      internalID: -2914876567033510146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_7
+      name: "Miko\u0142aj_Ko\u0142odziej_7"
       rect:
         serializedVersion: 2
         x: 48
@@ -298,19 +298,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c085c5c7bd540900800000000000000
-      internalID: 649747290126647489
+      spriteID: 7db2bbd19506be180800000000000000
+      internalID: -9085061887422682153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_8
+      name: "Miko\u0142aj_Ko\u0142odziej_8"
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,40 +319,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c71dd9fa7b13c540800000000000000
-      internalID: 5026891824067581892
+      spriteID: 99318d0b6d6171e10800000000000000
+      internalID: 2168226856947946393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_9
+      name: "Miko\u0142aj_Ko\u0142odziej_9"
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43e322ed250edb1e0800000000000000
-      internalID: -2180339998058725836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_10
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 16
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97a663d04f20bb0800000000000000
-      internalID: -4971142701078906413
+      spriteID: c844b12fd3bb763b0800000000000000
+      internalID: -5519236943589981044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_11
+      name: "Miko\u0142aj_Ko\u0142odziej_10"
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 16
-        width: 11
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,92 +361,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b93557e8fd514790800000000000000
-      internalID: -7547648176881845833
+      spriteID: f54f6d6b5a4467ac0800000000000000
+      internalID: -3857820552268417953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_12
+      name: "Miko\u0142aj_Ko\u0142odziej_11"
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 872ce4af98c274320800000000000000
-      internalID: 2542049485795541624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64b97d4ca59b5ef0800000000000000
-      internalID: -118336397928450965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8090c3f56fde2cbf0800000000000000
-      internalID: -305420182292264696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_15
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 11
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96728e911d046bf00800000000000000
-      internalID: 1132163623157245801
+      spriteID: de6956f53ca10d1c0800000000000000
+      internalID: -4481052202812205331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miko\u0142aj_Ko\u0142odziej_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d00393e5506070800000000000000
+      internalID: 8097566565924393550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miko\u0142aj_Ko\u0142odziej_13"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0c73e4ea0bbdf0800000000000000
+      internalID: -163524983283511737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miko\u0142aj_Ko\u0142odziej_14"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c3dc1bceb55afa0800000000000000
+      internalID: -5790120673761477583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Miko\u0142aj_Ko\u0142odziej_15"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f9be3159a485c00800000000000000
+      internalID: 889542930550464274
       vertices: []
       indices: 
       edges: []
