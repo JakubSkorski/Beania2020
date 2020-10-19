@@ -38,15 +38,12 @@ namespace Assets.Scripts
 
         void OnTriggerExit2D(Collider2D collision)
         {
-            if(collision.gameObject.CompareTag("Player"))
+            if(isDoorOpened && collision.gameObject.CompareTag("Player"))
             {
+                isDoorOpened = false;
                 isPlayerNextToTheDoor = false;
-                if (isDoorOpened)
-                {
-                    isDoorOpened = false;
-                    door.SetRotation(rotationClosed);
-                    door.MovePosition(positionClosed);
-                }
+                door.SetRotation(rotationClosed);
+                door.MovePosition(positionClosed);
             }
         }
 

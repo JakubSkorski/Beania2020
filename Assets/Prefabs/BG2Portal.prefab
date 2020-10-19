@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6859514685335739351}
   - component: {fileID: 6859514685335739350}
   - component: {fileID: 6859514685335739345}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BG2Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PortalSprite: {fileID: 8840103069135118082, guid: 36a9bfaafca45d84a94d433da87d9ed8, type: 3}
   Prop: {fileID: 2582945304543845398, guid: b543fae2ed3bdb34086a053549df4683, type: 3}
-  prop_clone_GO: {fileID: 0}
 --- !u!61 &6859514685335739345
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72,4 +71,4 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0.3
+  m_EdgeRadius: 0
