@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: caed54e2bf317cf44939a8e5a005738c
+guid: 2570033efe5c32741a3b1b55951e4d02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 829294782567990066
-    second: radek-v2_0-1
+      213: 6708821869300231281
+    second: Emilia_Romanek_0
   - first:
-      213: 5488112622357462391
-    second: radek-v2_1
+      213: 6127306913426253826
+    second: Emilia_Romanek_1
   - first:
-      213: -4235205979055056928
-    second: radek-v2_2
+      213: 8418139898022385435
+    second: Emilia_Romanek_2
   - first:
-      213: 1239090489816659808
-    second: radek-v2_3
+      213: -3213800014028814192
+    second: Emilia_Romanek_3
   - first:
-      213: 8325272478194110832
-    second: radek-v2_4
+      213: 3549448868954027701
+    second: Emilia_Romanek_4
   - first:
-      213: -594504229464380776
-    second: radek-v2_5
+      213: -1582109734311712748
+    second: Emilia_Romanek_5
   - first:
-      213: -916740069732162260
-    second: radek-v2_6
+      213: 8039780720936653113
+    second: Emilia_Romanek_6
   - first:
-      213: 649747290126647489
-    second: radek-v2_7
+      213: -1403492406784689156
+    second: Emilia_Romanek_7
   - first:
-      213: 5026891824067581892
-    second: radek-v2_8
+      213: -2139210515285535008
+    second: Emilia_Romanek_8
   - first:
-      213: -2180339998058725836
-    second: radek-v2_9
+      213: -1031906474931829663
+    second: Emilia_Romanek_9
   - first:
-      213: -4971142701078906413
-    second: radek-v2_10
+      213: -6396707621768524248
+    second: Emilia_Romanek_10
   - first:
-      213: -7547648176881845833
-    second: radek-v2_11
+      213: 6100067100912950332
+    second: Emilia_Romanek_11
   - first:
-      213: 2542049485795541624
-    second: radek-v2_12
+      213: -6154912202039496083
+    second: Emilia_Romanek_12
   - first:
-      213: -118336397928450965
-    second: radek-v2_13
+      213: -2974320225910003840
+    second: Emilia_Romanek_13
   - first:
-      213: -305420182292264696
-    second: radek-v2_14
+      213: 2804935403456614670
+    second: Emilia_Romanek_14
   - first:
-      213: 1132163623157245801
-    second: radek-v2_15
+      213: -180795505582795623
+    second: Emilia_Romanek_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: radek-v2_0-1
+      name: Emilia_Romanek_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233cc01063f328b00800000000000000
-      internalID: 829294782567990066
+      spriteID: 17c230df1f58a1d50800000000000000
+      internalID: 6708821869300231281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_1
+      name: Emilia_Romanek_1
       rect:
         serializedVersion: 2
         x: 16
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d34fe4a51b92c40800000000000000
-      internalID: 5488112622357462391
+      spriteID: 20821948c21980550800000000000000
+      internalID: 6127306913426253826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_2
+      name: Emilia_Romanek_2
       rect:
         serializedVersion: 2
         x: 32
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e710d3e9968935c0800000000000000
-      internalID: -4235205979055056928
+      spriteID: b17da23d2ad33d470800000000000000
+      internalID: 8418139898022385435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_3
+      name: Emilia_Romanek_3
       rect:
         serializedVersion: 2
         x: 48
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067361a4c32223110800000000000000
-      internalID: 1239090489816659808
+      spriteID: 098caa82ae94663d0800000000000000
+      internalID: -3213800014028814192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_4
+      name: Emilia_Romanek_4
       rect:
         serializedVersion: 2
         x: 0
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0719811b53f498370800000000000000
-      internalID: 8325272478194110832
+      spriteID: 5b6ba66c0fc224130800000000000000
+      internalID: 3549448868954027701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_5
+      name: Emilia_Romanek_5
       rect:
         serializedVersion: 2
         x: 16
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aee499d85efb7f0800000000000000
-      internalID: -594504229464380776
+      spriteID: 418a9aa34973b0ae0800000000000000
+      internalID: -1582109734311712748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_6
+      name: Emilia_Romanek_6
       rect:
         serializedVersion: 2
         x: 32
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c256f3083c51743f0800000000000000
-      internalID: -916740069732162260
+      spriteID: 931967718f9039f60800000000000000
+      internalID: 8039780720936653113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_7
+      name: Emilia_Romanek_7
       rect:
         serializedVersion: 2
         x: 48
@@ -298,19 +298,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c085c5c7bd540900800000000000000
-      internalID: 649747290126647489
+      spriteID: cfbf3a0971bc58ce0800000000000000
+      internalID: -1403492406784689156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_8
+      name: Emilia_Romanek_8
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,40 +319,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c71dd9fa7b13c540800000000000000
-      internalID: 5026891824067581892
+      spriteID: 0e610a0de5fff42e0800000000000000
+      internalID: -2139210515285535008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_9
+      name: Emilia_Romanek_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 15
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43e322ed250edb1e0800000000000000
-      internalID: -2180339998058725836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_10
-      rect:
-        serializedVersion: 2
-        x: 35
+        x: 16
         y: 16
-        width: 10
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -361,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97a663d04f20bb0800000000000000
-      internalID: -4971142701078906413
+      spriteID: 1644340478eeda1f0800000000000000
+      internalID: -1031906474931829663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_11
+      name: Emilia_Romanek_10
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 16
-        width: 11
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,92 +361,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b93557e8fd514790800000000000000
-      internalID: -7547648176881845833
+      spriteID: 82e04782f445a37a0800000000000000
+      internalID: -6396707621768524248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: radek-v2_12
+      name: Emilia_Romanek_11
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 872ce4af98c274320800000000000000
-      internalID: 2542049485795541624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64b97d4ca59b5ef0800000000000000
-      internalID: -118336397928450965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_14
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8090c3f56fde2cbf0800000000000000
-      internalID: -305420182292264696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: radek-v2_15
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 11
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 7}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96728e911d046bf00800000000000000
-      internalID: 1132163623157245801
+      spriteID: c3c96ff65bac7a450800000000000000
+      internalID: 6100067100912950332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emilia_Romanek_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62f7bd56fb559aa0800000000000000
+      internalID: -6154912202039496083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emilia_Romanek_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087ef5e538719b6d0800000000000000
+      internalID: -2974320225910003840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emilia_Romanek_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d2f463e12de620800000000000000
+      internalID: 2804935403456614670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emilia_Romanek_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99410c0127fad7df0800000000000000
+      internalID: -180795505582795623
       vertices: []
       indices: 
       edges: []
