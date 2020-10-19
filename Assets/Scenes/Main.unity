@@ -35069,7 +35069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1942880236}
-  moveSpeed: 0
+  cameraAnimationSpeedRatio: 3
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
