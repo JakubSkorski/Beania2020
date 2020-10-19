@@ -4,25 +4,23 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-
     public GameObject target;
+    public float cameraAnimationSpeedRatio;
+
     private Vector3 targetPosition;
-    public float moveSpeed;
-
-
+    private PlayerController player;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveSpeed = GameObject.Find("Player").GetComponent<PlayerController>().movementSpeed;
-
         targetPosition = new Vector3(target.transform.position.x, target.transform.position.y, transform.position.z);
-        transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        var time = cameraAnimationSpeedRatio * player.movementSpeed * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, targetPosition, time);
     }
 }
