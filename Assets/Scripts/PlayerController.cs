@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         playerMoving = false;
-        float speed;
+        float speed = movementSpeed;
         float horizontal, vertical;
 
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -49,15 +49,9 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 2 * movementSpeed;
-            anim.speed = speed; //= 3.5f;
+            speed = 3 * movementSpeed;
         }
-        else
-        {
-            speed = movementSpeed;
-            anim.speed = speed;
-        }
-
+        anim.speed = speed;
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;
