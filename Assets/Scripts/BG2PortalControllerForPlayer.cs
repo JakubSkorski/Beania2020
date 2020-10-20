@@ -6,22 +6,25 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
 {
     public GameObject PortalSprite;
     public GameObject Prop;
-    private bool is_trigg;
-
-    public GameObject prop_clone_GO;
-
+    //public GameObject prop_clone_GO;
     public AudioSource audioData;
+
+    private bool is_trigg;
+    private bool played = false;
+
+
 
     void Start() {
         audioData = GetComponent<AudioSource>();
     }
-    private bool played = false;
+
 
 
     IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")&&!played)
+        if (collision.gameObject.CompareTag("Player") && !played)
         {
+            var player = collision.gameObject.GetComponent<PlayerController>();
             played = true;
             audioData.Play(0);
             yield return new WaitForSeconds(4);
@@ -32,11 +35,15 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
             audioData.Pause();
 
             yield return new WaitForSeconds(2);
-            Destroy(collision.gameObject); 
-            
-            prop_clone_GO = (GameObject)Instantiate(Prop, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 1), Quaternion.identity);
+            //Destroy(collision.gameObject); 
+            player.SetVisible();
+            yield return new WaitForSeconds(1);
+            player.MoveTo(transform.position.x, transform.position.y);
+            yield return new WaitForSeconds(1);
+            player.SetVisible();
+            //prop_clone_GO = (GameObject)Instantiate(Prop, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 1), Quaternion.identity);
 
-            yield return new WaitForSeconds(4);
+            yield return new WaitForSeconds(3);
 
             Destroy(portal);
             Destroy(portal1);

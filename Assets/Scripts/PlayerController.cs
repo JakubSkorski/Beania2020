@@ -36,6 +36,15 @@ public class PlayerController : MonoBehaviour
             Debug.Log($"Found: {classmate.displayName}");
         }
     }
+    public void SetVisible()
+    {
+        gameObject.SetActive(!gameObject.activeSelf);
+    }
+
+    public void MoveTo(float x, float y)
+    {
+        rigidbody2d.MovePosition(new Vector2(x,y));
+    }
 
     // Update is called once per frame
     void Update()
@@ -70,7 +79,6 @@ public class PlayerController : MonoBehaviour
            lastMove = new Vector2(0f, vertical);
        }
 
-       
 
         rigidbody2d.MovePosition(rigidbody2d.position + new Vector2(deltaX, deltaY));
         
