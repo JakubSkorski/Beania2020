@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 lastMove;
 
     // lista uczniów dodanych do drużyny
-    private List<ClassmateController> group = new List<ClassmateController>();
+    private List<NPCController> group = new List<NPCController>();
 
     // Start is called before the first frame update
     void Start()
@@ -24,16 +24,16 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
-    public void Found(ClassmateController classmate)
+    public void Found(NPCController npc)
     {
-        if(!group.Contains(classmate)) // sprawdza czy dany uczeń znajduje się już w drużynie
+        if(!group.Contains(npc)) // sprawdza czy dany uczeń znajduje się już w drużynie
         {
-            group.Add(classmate); // dodaje ucznia do drużyny
+            group.Add(npc); // dodaje ucznia do drużyny
 
             // Proszę wpisać tu co ma się stać do po dodaniu ucznia do drużyny
 
             
-            Debug.Log($"Found: {classmate.displayName}");
+            Debug.Log($"Found: {npc.displayName}");
         }
     }
     public void SetVisible()

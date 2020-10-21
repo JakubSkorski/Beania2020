@@ -7,21 +7,21 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class ClassmateController : MonoBehaviour
+    public class NPCController : MonoBehaviour
     {
-        //public float movmentSpeed;
+        //public float movementSpeed;
         public string displayName;
         public int id;
 
-        private Animator anim;
+        private TextMesh nameText;
+        ////private Animator anim;
 
-        // Start is called before the first frame update
         void Start()
         {
-            anim = GetComponent<Animator>();
+            ////anim = GetComponent<Animator>();
 
-            var x = gameObject.GetComponentInChildren<TextMesh>();
-            x.text = displayName;
+            nameText = gameObject.GetComponentInChildren<TextMesh>();
+            nameText.text = displayName;
         }
 
         void OnTriggerEnter2D(Collider2D collision)
@@ -30,21 +30,23 @@ namespace Assets.Scripts
            if (player != null)
            {
                 player.Found(this);
+                //Destroy(gameObject, 1);
            }
-       }
-
-        void OnCollisionEnter2D(Collision2D col)
-        {
-            Debug.Log("Collision");
+            /////anim.SetFloat("DirectionX", -1);
         }
+
+        //void OnCollisionEnter2D(Collision2D col)
+        //{
+            //Debug.Log("Collision");
+        //}
 
         private void OnTriggerExit2D(Collider2D collision)
         {
             //var player = collision.gameObject.GetComponent<PlayerController>();
-            //if (player != null)
-            //{
-            //    player.ExitTarget();
-            //}
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                gameObject.SetActive(false);
+            }
         }
 
         // Update is called once per frame
