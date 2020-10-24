@@ -9,13 +9,20 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
     //public GameObject prop_clone_GO;
     public AudioSource audioData;
 
-    private bool is_trigg;
+    private bool is_trigg, usingPortal;
     private bool played = false;
 
+    float playerX;
+    float playerY;
+
+    private static GameObject floor0;
+    private static GameObject floor2;
 
 
     void Start() {
         audioData = GetComponent<AudioSource>();
+        floor0 = GameObject.FindGameObjectWithTag("floor0-object");
+        floor2 = GameObject.FindGameObjectWithTag("floor2-object");
     }
 
 
@@ -24,8 +31,12 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !played)
         {
-            var player = collision.gameObject.GetComponent<PlayerController>();
+            playerX = GameObject.Find("Player").transform.position.x;
+            playerY = GameObject.Find("Player").transform.position.y;
+
+            var playercol = collision.gameObject.GetComponent<PlayerController>();
             played = true;
+            usingPortal = true;
             audioData.Play(0);
             yield return new WaitForSeconds(4);
 
@@ -36,11 +47,14 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
 
             yield return new WaitForSeconds(2);
             //Destroy(collision.gameObject); 
-            player.SetVisible();
+            playercol.SetVisible();
             yield return new WaitForSeconds(1);
-            player.MoveTo(transform.position.x, transform.position.y);
+            Debug.Log("Test");
+            floor2.SetActive(true);
+            floor0.SetActive(false);
+            playercol.MoveTo(transform.position.x, transform.position.y);
             yield return new WaitForSeconds(1);
-            player.SetVisible();
+            playercol.SetVisible();
             //prop_clone_GO = (GameObject)Instantiate(Prop, new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z - 1), Quaternion.identity);
 
             yield return new WaitForSeconds(3);
@@ -48,7 +62,17 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
             Destroy(portal);
             Destroy(portal1);
 
-            Destroy(gameObject);    
+            Destroy(gameObject);
+            usingPortal = false;
         }
     }
+
+    private void Update()
+    {
+        if(usingPortal)
+        {
+            GameObject.Find("Player").transform.position = new Vector3(playerX, playerY, 0);
+        }
+    }
+
 }

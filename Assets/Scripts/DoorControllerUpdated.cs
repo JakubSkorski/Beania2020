@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
-    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz O.
+    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz E.
     public class DoorControllerUpdated : MonoBehaviour
     {
         public float openedDoorAngle;
@@ -73,7 +73,7 @@ namespace Assets.Scripts
                 return;
             }
 
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O) && !isDoorOpened)
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.E) && !isDoorOpened)
             {
                 isDoorOpening = true;
             }

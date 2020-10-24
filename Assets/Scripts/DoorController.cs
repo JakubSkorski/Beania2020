@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     // Sterowanie drzwiami:
-    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz O.
+    // drzwi otwierają się, gdy gracz znajduje się w zasięgu collider-a drzwi i wciśnie klawisz E.
     public class DoorController : MonoBehaviour
     {
         public Vector2 deltaPositionOpened;
@@ -52,7 +52,7 @@ namespace Assets.Scripts
 
         void Update()
         {
-            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.O) && !isDoorOpened)
+            if (isPlayerNextToTheDoor && Input.GetKey(KeyCode.E) && !isDoorOpened)
             {
                 isDoorOpened = true;
                 door.MovePosition(positionClosed + deltaPositionOpened);
