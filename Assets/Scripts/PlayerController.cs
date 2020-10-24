@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 3 * movementSpeed;
+            speed = (float)1.5 * movementSpeed;
         }
         anim.speed = speed;
 
