@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float movementSpeed = 1f;
+    public bool isLocked = false;
 
     private Animator anim;
     private Rigidbody2D rigidbody2d;
@@ -36,13 +37,14 @@ public class PlayerController : MonoBehaviour
             Debug.Log($"Found: {npc.displayName}");
         }
     }
-    public void SetVisible()
+    public void SetVisible(bool state)
     {
-        gameObject.SetActive(!gameObject.activeSelf);
+        gameObject.SetActive(state);
     }
 
     public void MoveTo(float x, float y)
     {
+        transform.position = new Vector3(x, y);
         rigidbody2d.MovePosition(new Vector2(x,y));
     }
 
@@ -61,6 +63,11 @@ public class PlayerController : MonoBehaviour
             speed = (float)1.5 * movementSpeed;
         }
         anim.speed = speed;
+
+        if(isLocked)
+        {
+            speed = 0;
+        }
 
         var deltaX = horizontal * speed * Time.deltaTime;
         var deltaY = vertical * speed * Time.deltaTime;
