@@ -12,7 +12,7 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
     GameObject portal1, portal;
 
     //private bool is_trigg, usingPortal;
-    private bool played = false, destroy = false;
+    private bool played = false;
 
     void Start() {
         audioData = GetComponent<AudioSource>();

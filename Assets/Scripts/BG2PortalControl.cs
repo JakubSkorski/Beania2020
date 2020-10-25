@@ -25,6 +25,13 @@ public class BG2PortalControl : MonoBehaviour
             yield return new WaitForSeconds(4);
             Destroy(portal);
             Destroy(gameObject);
+
+            if(prop_clone_GO.name == "Cygal")
+            {
+                yield return new WaitForSeconds(5);
+                Destroy(prop_clone_GO);
+            }
+
         }
     }
 
