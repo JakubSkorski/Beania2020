@@ -45,6 +45,7 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
             StairsController.SetFloor(2);
             playercol.MoveTo(transform.position.x, transform.position.y);
             yield return new WaitForSeconds(0.5f);
+            Debug.Log("Tu jeszcze działa");
             go.SetActive(true);
             playercol.isLocked = false;
 
