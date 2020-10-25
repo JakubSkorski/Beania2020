@@ -44,12 +44,12 @@ public class BG2PortalControllerForPlayer : MonoBehaviour
             Debug.Log("PORTAL: Change floor...");
             StairsController.SetFloor(2);
             playercol.MoveTo(transform.position.x, transform.position.y);
-            yield return new WaitForSeconds(0.5f);
+            
             Debug.Log("Tu jeszcze działa");
             go.SetActive(true);
             playercol.isLocked = false;
 
-            yield return new WaitForSeconds(2f);
+            
             Debug.Log("PORTAL: Destroy portals...");
             Destroy(portal);
             Destroy(portal1);
