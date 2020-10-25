@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6193554844832468823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2439045983997337962, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499842, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_Name
+      value: Dyrektor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.86579
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.514544
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499852, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268689277372499853, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2188439649667453062, guid: 97e91eb596ce4f84ca7d1aa31027a432, type: 3}
+    - target: {fileID: 5268689277372499855, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+      propertyPath: displayName
+      value: Pan Dyrektor
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2439045983997337962, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 562c8f95bd5c12348b3deeb38ba5ef28, type: 3}
