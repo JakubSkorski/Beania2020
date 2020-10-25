@@ -18,11 +18,11 @@ namespace Assets.Scripts
         void Start()
         {
 
-            if (floor0 == null)
+            if (floor2 == null)
             {
                 floor0 = GameObject.FindGameObjectWithTag("floor0-object");
                 floor2 = GameObject.FindGameObjectWithTag("floor2-object");
-                floor2.SetActive(false);
+                floor0.SetActive(false);
 
             }
         }
