@@ -14,13 +14,18 @@ namespace Assets.Scripts
         public static GameObject floor0;
         public static GameObject floor2;
 
+
         void Start()
         {
-            if(floor0 == null)
+            floor0.SetActive(false);
+            floor2.SetActive(true);
+
+            if (floor0 == null)
             {
                 floor0 = GameObject.FindGameObjectWithTag("floor0-object");
                 floor2 = GameObject.FindGameObjectWithTag("floor2-object");
                 floor2.SetActive(false);
+
             }
         }
 
