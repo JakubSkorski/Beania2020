@@ -17,8 +17,6 @@ namespace Assets.Scripts
 
         void Start()
         {
-            floor0.SetActive(false);
-            floor2.SetActive(true);
 
             if (floor0 == null)
             {
