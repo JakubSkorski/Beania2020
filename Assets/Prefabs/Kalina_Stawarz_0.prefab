@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5207779154812089869}
   - component: {fileID: 6861662753080240796}
   - component: {fileID: 3511688901485968439}
+  - component: {fileID: -5316063038885705658}
   m_Layer: 0
   m_Name: Kalina_Stawarz_0
   m_TagString: Untagged
@@ -109,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-5316063038885705658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766031918411685687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f046ace649817f41a7bbac9a9c09a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: 
+  id: 0

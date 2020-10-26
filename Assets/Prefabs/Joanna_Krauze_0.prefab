@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9033706719134393540}
   - component: {fileID: 2187322148086169320}
   - component: {fileID: 1347724494016914527}
+  - component: {fileID: 111748779168491946}
   m_Layer: 0
   m_Name: Joanna_Krauze_0
   m_TagString: Untagged
@@ -109,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &111748779168491946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161117620605638603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f046ace649817f41a7bbac9a9c09a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: 
+  id: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3328589940135242244}
   - component: {fileID: 7158058215648523658}
   - component: {fileID: 859959516172507372}
+  - component: {fileID: -3236021625567600903}
   m_Layer: 0
   m_Name: Kacper_Pietryka
   m_TagString: Untagged
@@ -109,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-3236021625567600903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540267071526514387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f046ace649817f41a7bbac9a9c09a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: 
+  id: 0
